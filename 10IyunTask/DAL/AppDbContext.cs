@@ -5,9 +5,9 @@ namespace _10IyunTask.DAL
 {
     public class AppDbContext:DbContext
     {
-        public AppDbContext(DbContextOptions<DbContext> options):base(options)
+        public AppDbContext(DbContextOptions options):base(options)
         {
         }
-        public DbSet<Slider> sliders { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
     }   
 }
